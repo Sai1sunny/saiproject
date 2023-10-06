@@ -1,0 +1,6 @@
+.col-md-12.col-lg-2.d-md-block.bg-dark.sidebar {
+  height: calc(100vh - 60px); /* Adjust the height as needed */
+  overflow-y: hidden;
+  position: fixed;
+  margin-top: 75px;
+}

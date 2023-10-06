@@ -1,0 +1,52 @@
+/* Header styles */
+header {
+    position: fixed;
+    top: 0; /* Stick it to the top of the viewport */
+    left: 0; /* Stick it to the left of the viewport */
+    right: 0; /* Stick it to the right of the viewport */
+    min-height: 75px;
+    background: green;
+    color: #EEE;
+    z-index: 1000; /* Ensure the header is on top of other elements */
+  }
+  
+  .headerLogo {
+    width: 70px;
+    border: 2px solid #AAA;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  #navbarSupportedContent {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .img-avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  /* Mega Menu related styles */
+  .megamenu-li {
+    position: static;
+  }
+  
+  .megamenu {
+    position: fixed;
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    top: 75px; /* Adjust the top value to avoid overlapping with the header */
+  }
+  
+  .s {
+    right: 0;
+    left: auto;
+    transform: translateX(0%);
+  }
+  
